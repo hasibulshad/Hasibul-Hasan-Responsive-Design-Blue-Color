@@ -19,8 +19,8 @@
       -> Copy the color mode (HSL)
   */
 
-  --hue: 220;
-  --first-color: hsl(var(--hue), 80%, 60%);
+  --hue: 300;
+  --first-color: hsl(var(--hue), 80%, 65%);
   --gradient-color: linear-gradient(90deg, hsl(var(--hue), 75%, 60%) 0%,
                                            hsl(var(--hue), 100%, 85%) 40%,
                                            hsl(var(--hue), 100%, 85%) 60%,
@@ -278,7 +278,7 @@ img { display: block; max-width: 100%; height: auto; }
 .footer--social-link:hover { transform: translateY(-0.25rem); }
 .footer--copy { display: block; text-align: center; margin-top: 5.5rem; font-size: var(--small-font-size); font-family: var(--second-font); }
 .footer .blob-big { bottom: -1.5rem; left: 0; right: 0; margin-inline: auto; }
-.footer--developer { color: blue; font-weight: var(--font-semi-bold); }
+.footer--developer { color: var(--first-color); font-weight: var(--font-semi-bold); }
 
 /* .footer-bottom {
     text-align: center;
